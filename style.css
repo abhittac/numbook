@@ -1,0 +1,19 @@
+.heading{
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  height: 50px;
+  color:white;
+  line-height:45px;
+}
+body{
+  text-decoration: none;
+  list-style: none;
+}
+#helpIdName{
+  display: none;
+}
+#helpIdNum{
+  display: none;
+}

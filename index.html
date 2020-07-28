@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container-fluid">
+
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 bg-primary heading">
+        Numbook
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <div class="form-group">
+        <label for="Name" >Name</label>
+        <input type="text"
+          class="form-control" name="" id="name" aria-describedby="helpId" placeholder="">
+        <small id="helpIdName" class="form-text text-muted">This field can't be empty!</small>
+      </div>
+      <div class="form-group">
+        <label for="New Number" >New Number</label>
+        <input type="number" class="form-control" name="" id="number" aria-describedby="helpId" placeholder="">
+        <small id="helpIdNum" class="form-text text-muted">Not a valid Number</small>
+      </div>
+      <button type="button" name="" id="btn" class="btn btn-primary btn-lg btn-block " onclick="run()">Add </button>
+      <br>
+
+     
+      
+<br><br>
+<p id="display">
+  <div class="row">
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+      <h3 id="item-name"></h3>
+    </div>
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-right">
+      <h3 id="item-number"></h3>
+    </div>
+  </div>`
+</p>
+
+
+
+
+
+      
+      <input type="search" name="" id="search" class="form-control" value="Search" required="required" title="">
+      <br>
+      <a name="" onclick="find()" class="btn btn-primary btn-block" href="#" role="button">Find</a>
+     
+
+        <button type="button" onclick="cross()" class="btn btn-primary btn-block">Delete All Contacts</button>
+        
+        <div id="accordianId" role="tablist" aria-multiselectable="true">
+          <div class="card">
+            <div class="card-header" role="tab" id="section1HeaderId">
+              <h5 class="mb-0">
+                <a data-toggle="collapse" data-parent="#accordianId" href="#section1ContentId" aria-expanded="true" aria-controls="section1ContentId">
+                  Alphabet A-J
+                  
+                </a>
+              </h5>
+            </div>
+            <div id="section1ContentId" class="collapse in" role="tabpanel" aria-labelledby="section1HeaderId">
+              <div class="card-body" id="a"></div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" role="tab" id="section2HeaderId">
+              <h5 class="mb-0">
+                <a data-toggle="collapse" data-parent="#accordianId" href="#section2ContentId" aria-expanded="true" aria-controls="section2ContentId">
+                  Alphabet K-Z
+                </a>
+              </h5>
+            </div>
+            <div id="section2ContentId" class="collapse in" role="tabpanel" aria-labelledby="section2HeaderId">
+              <div class="card-body" id="b">
+              
+              </div>
+            </div>
+          </div>
+        </div>
+
+    </div>
+  </div>
+
+
+
+ 
+  
+
+  
+    <script src="file.js"></script>
+</body>
+
+</html>
